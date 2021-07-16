@@ -59,10 +59,7 @@ const FooterList = [
 
 const Footer = () => {
   return (
-    <footer
-      id="footer"
-      className="pt-8 md:pt-24 flex flex-col lg:grid lg:grid-cols-3"
-    >
+    <footer id="footer" className="pt-8 md:pt-24 flex flex-col lg:grid lg:grid-cols-3">
       <div className="p-5 md:self-center md:justify-self-center">
         <Link href="/">
           <a className="text-sm font-medium leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase hover:text-red-200">
@@ -71,8 +68,7 @@ const Footer = () => {
               className="h-10 w-10"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
+              stroke="currentColor">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -98,8 +94,7 @@ const Footer = () => {
                       className=" text-text-gray text-lg font-medium font-main flex flex-col hover:text-red-200 "
                       href={l.link}
                       target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                      rel="noopener noreferrer">
                       {l.title}
                     </a>
                   );
@@ -114,24 +109,13 @@ const Footer = () => {
           href="http://"
           target="_blank"
           rel="noopener noreferrer  "
-          className="hover:text-red-400"
-        >
+          className="hover:text-red-400">
           <CgTwitter size="2rem" />
         </a>
-        <a
-          href="http://"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-red-400"
-        >
+        <a href="http://" target="_blank" rel="noopener noreferrer" className="hover:text-red-400">
           <CgTwitter size="2rem" />
         </a>
-        <a
-          href="http://"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-red-400"
-        >
+        <a href="http://" target="_blank" rel="noopener noreferrer" className="hover:text-red-400">
           <CgTwitter size="2rem" />
         </a>
       </div>
